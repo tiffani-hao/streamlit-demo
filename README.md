@@ -1,25 +1,22 @@
 # CUSUM Application demo (Streamlit)
-local stremlit demo for CUSUM alerts
 
-This is a small demo app for detecting potential disease clusters using a CUSUM approach.
+This is a simple demo for demonstration purposes only.
 
-The app runs locally and takes a CSV file with monthly case counts by county. It then generates alerts and simple visualizations.
-
-The goal of this prototype is to show how a health department could quickly upload surveillance data and see possible alerts without sending data to external servers.
+It uses a mock CUSUM algorithm, and the current outputs and visualizations are only prototypes meant to show what the workflow could look like.
 
 ---
 
 ## What the app demo does 
 
 - Upload a CSV file with monthly case counts
-- Run a mock CUSUM calculation (it's fake)
+- Run a mock CUSUM calculation =
 - Detect possible alerts 
 - Show two plots:
   - case counts vs baseline
   - CUSUM monitoring statistic
 - Display a summary table of alerts by county
 
-Everything runs locally in your browser.
+Everything runs locally.
 
 ---
 
@@ -127,14 +124,6 @@ sample_hiv_2020_2024.csv
 requirements.txt
 README.md
 ```
-
----
-
-## Notes
-
-This is only a simple demo for demonstration purposes.
-
-The demo utilized a mock-CUSUM algorithm and the current visualizations and outputs are just prototype. They are only examples to show how the workflow might look. 
 
 ---
 
