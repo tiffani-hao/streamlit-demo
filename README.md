@@ -62,9 +62,9 @@ https://www.python.org/downloads/
 Either clone the repo:
 
 ```
-  git clone https://github.com/tiffani-hao/hiv-cusum-demo.git
+  git clone https://github.com/tiffani-hao/streamlit-demo.git
   
-  cd hiv-cusum-demo
+  cd streamlit-demo
 ```
 
 or download the ZIP from GitHub.
@@ -106,13 +106,18 @@ Upload a dataset and the dashboard will generate alerts and plots.
 
 ---
 
-### 5. Quit the application
+### 5. Quit the application and exits the virtual environment
 
 ```
 ctrl + c
+deactivate
 ```
 
-or just close everything
+to fully close the terminal:
+
+```
+exit
+```
 
 ---
 
