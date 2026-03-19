@@ -3,6 +3,7 @@ import numpy as np
 
 REQUIRED_COLS = ["month", "county", "cases"]
 
+
 def load_and_prepare(df: pd.DataFrame) -> pd.DataFrame:
     # Validate columns
     missing = [c for c in REQUIRED_COLS if c not in df.columns]
@@ -64,7 +65,8 @@ def run_mock_cusum(prepared: pd.DataFrame, threshold: float = 4.0) -> tuple[pd.D
         # Mock "deviation"
         g["deviation"] = (g["cases_smoothed"] - g["baseline"]).fillna(0)
 
-        # Mock "cusum": accumulate only positive deviations, slowly decays when negative
+        # Mock "cusum":
+        # accumulate only positive deviations, slowly decays when negative
         cus = []
         s = 0.0
         for d in g["deviation"].to_numpy():
