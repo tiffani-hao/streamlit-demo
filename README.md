@@ -1,7 +1,5 @@
-# hiv-cusum-demo
+# CUSUM Application demo (Streamlit)
 local stremlit demo for CUSUM alerts
-
-# CUSUM Surveillance Demo
 
 This is a small demo app for detecting potential disease clusters using a CUSUM approach.
 
@@ -53,9 +51,7 @@ A synthetic dataset is included: ```sample_hiv_2020_2024.csv```
 
 Python 3.9 or newer is required.
 
-You can check if Python is installed by running:
-
-python --version
+You can check if Python is installed by running: ```python --version``` in your terminal
 
 If Python is not installed, download it from:
 https://www.python.org/downloads/
@@ -80,12 +76,13 @@ or download the ZIP from GitHub.
 
 ### 2. Create a virtual environment
 
-```python -m venv venv``` Activate it.
+Create the environment: ```python -m venv venv```
+
+Activate it:
 
 Mac / Linux: ```source venv/bin/activate```
 
-windows:
-```source venv/bin/activate```
+windows: ```source venv/bin/activate```
 
 ---
 
@@ -137,14 +134,7 @@ README.md
 
 This is only a simple demo for demonstration purposes.
 
-The setup steps may look a bit complicated right now because this is just a prototype. 
-The final application would likely be packaged so users can run it more easily.
-
-The current visualizations and outputs are not final. 
-They are only examples to show how the workflow might look. 
-More features, outputs, and visualizations can be added if needed.
-
-The diagrams and plots shown in the app are also just a rough draft to illustrate the idea.
+The demo utilized a mock-CUSUM algorithm and the current visualizations and outputs are just prototype. They are only examples to show how the workflow might look. 
 
 ---
 
